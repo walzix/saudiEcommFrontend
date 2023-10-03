@@ -1,0 +1,7 @@
+.Home{
+    background-color: darkgoldenrod;
+}
+.Home__header__space{
+    min-height: 120px;
+    max-height: 120px;
+}

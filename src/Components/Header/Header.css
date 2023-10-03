@@ -1,0 +1,65 @@
+.Header {
+    position: absolute;
+    background-color: transparent;
+    min-width: 80%;
+    max-width: 80%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+.Header__left {
+    font-weight: 900;
+    font-size: xx-large;
+    color: white;
+}
+
+.Header__center {
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Header__center__nav {
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.Header__center__nav:hover {
+    color: black;
+}
+
+.Header__center__line {
+    min-width: 0.5px;
+    max-width: 0.5px;
+    height: 20px;
+    background-color: white;
+}
+
+.Header__right {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header__right__icon {
+    position: relative;
+    color: white;
+}
+
+.Header__right__icon__number {
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.9);
+    border-radius: 200px;
+    padding: 2px 5px;
+    color: white;
+    transform: translateX(20%) translateY(-20%);
+    right: 0;
+    top: 0;
+    font-size: xx-small;
+}
