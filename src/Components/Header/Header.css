@@ -13,7 +13,7 @@
 .Header__left {
     font-weight: 900;
     font-size: xx-large;
-    color: white;
+    color: var(--primary);
 }
 
 .Header__center {
@@ -24,20 +24,28 @@
 }
 
 .Header__center__nav {
-    color: white;
+    color: var(--primary);
     font-size: medium;
     cursor: pointer;
+    font-weight: 600;
+}
+
+.Header__center__nav__selected {
+    color: var(--secondary);
+    font-size: medium;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .Header__center__nav:hover {
-    color: black;
+    color: var(--secondary);
 }
 
 .Header__center__line {
     min-width: 0.5px;
     max-width: 0.5px;
     height: 20px;
-    background-color: white;
+    background-color: var(--primary)
 }
 
 .Header__right {
@@ -47,17 +55,19 @@
     align-items: center;
 }
 
-.Header__right__icon {
+    .Header__right__icon {
     position: relative;
-    color: white;
+    color: var(--primary);
+    cursor: pointer;
+    transition: all linear 0.15s;
 }
 
 .Header__right__icon__number {
     position: absolute;
-    background-color: rgba(128, 128, 128, 0.9);
+    background-color: var(--secondary);
     border-radius: 200px;
     padding: 2px 5px;
-    color: white;
+    color: var(--primary);
     transform: translateX(20%) translateY(-20%);
     right: 0;
     top: 0;

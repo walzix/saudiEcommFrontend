@@ -6,11 +6,13 @@ import Home from "../Pages/Home/Home";
 function App() {
   return (
     <div className="App">
-      {<Home/>}
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/shop" element={<Home />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/blog" element={<Home />} />
+          <Route path="/contact" element={<Home />} />
           <Route path="/product" element={<Home />} />
           <Route path="/cart" element={<Home />} />
           <Route path="/checkout" element={<Home />} />
@@ -25,7 +27,7 @@ function App() {
           <Route path="*" element={<Home />} />
 
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }

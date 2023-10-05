@@ -1,7 +1,29 @@
-.Home{
-    background-color: darkgoldenrod;
+.Home {}
+
+.Home__banner {
+    min-width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Home__header__space{
-    min-height: 120px;
-    max-height: 120px;
+
+.Home__banner__body {
+    min-width: 100%;
+}
+
+.Home__banner__body__head {
+    margin: auto;
+    text-align: center;
+    font-size: 60px;
+    color: var(--primary);
+}
+.Home__banner__body__button{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
