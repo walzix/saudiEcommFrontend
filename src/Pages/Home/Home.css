@@ -70,3 +70,65 @@
     max-height: 55vh;
     
 }
+
+.Home_featured{
+    min-width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home_featured_arrow{
+    color: var(--secondary);
+}
+.Home_featured_main{
+    min-width: 80%;
+    max-width: 80%;
+
+}
+.Home_featured_main_head{
+    border-bottom: 1px solid var(--tertiary);
+    padding: 70px 0 20px 0;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Home_featured_main_head_left{
+    font-size: larger;
+    font-weight: 900;    
+    color: var(--secondary);
+}
+.Home_featured_main_head_right{
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.Home_featured_main_head_right_one_selected{
+    cursor: pointer;
+    color: var(--yellow);
+    font-size: medium;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border: none;
+    border-bottom: 2px solid var(--yellow);
+    background-color: transparent;
+    font: inherit;
+}
+.Home_featured_main_head_right_one{
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    padding-bottom: 2px;
+    cursor: pointer;
+    font-size: medium;
+    color: var(--secondary);
+}
+.Home_featured_main_body{
+    background-color: thistle;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
